@@ -9,7 +9,6 @@ module.exports = {
   "bracketSpacing": true, // 在对象文字中的括号之间打印空格。true 示例：{ foo: bar }
   "bracketSameLine": false, // 将 > 多行 HTML（HTML、JSX）元素的 放在最后一行的末尾
   "proseWrap": "never",
-  "arrowParens": "avoid", // 尽可能省略括号。例子：x => x
   "overrides": [
     {
       "files": ".prettierrc", // 让 Prettier 格式化自己的.prettierrc文件

@@ -1,6 +1,6 @@
 {
   "name": "@hkt/prettier-rules",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "description": "my prettier rules",
   "main": "index.js",
   "scripts": {
@@ -9,6 +9,17 @@
   "keywords": [
     "prettier"
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mamba-1024/prettier-rules.git"
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  },
   "author": "huangketong",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "prettier": "^2.7.1"
+  }
 }
